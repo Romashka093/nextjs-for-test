@@ -4,11 +4,11 @@ const nextConfig = {
   swcMinify: true,
 };
 
-const path = require('path');
+import { join } from 'path';
 
 module.exports = {
   sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
+    includePaths: [join(__dirname, 'styles')],
   },
 
   webpack(config) {

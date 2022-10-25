@@ -53,7 +53,7 @@ const Home = () => {
     evt.preventDefault();
     setStep('contact');
   };
-  console.log('step: ', step);
+
   return (
     <>
       <Head>
@@ -69,6 +69,7 @@ const Home = () => {
             <div className={card_avatar}>
               <Image
                 src="/me.jpg"
+                priority={true}
                 alt="avatar"
                 width={100}
                 height={100}
