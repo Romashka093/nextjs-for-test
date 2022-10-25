@@ -5,21 +5,21 @@ const nextConfig = {
 };
 
 // const path = require('path');
-import path from 'path';
+// import path from 'path';
 
-module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
+// module.exports = {
+//   sassOptions: {
+//     includePaths: [path.join(__dirname, 'styles')],
+//   },
 
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    });
+//   webpack(config) {
+//     config.module.rules.push({
+//       test: /\.svg$/,
+//       use: ['@svgr/webpack'],
+//     });
 
-    return config;
-  },
-};
-const withImages = require('next-images');
-module.exports = withImages();
+//     return config;
+//   },
+// };
+// const withImages = require('next-images');
+// module.exports = withImages();
