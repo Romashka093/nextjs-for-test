@@ -233,8 +233,7 @@
   position: relative;
   &_container1 {
     position: absolute;
-    // top: -200px;
-    top: -100px;
+    top: -200px;
     left: 0;
     width: 340px;
     height: 340px;
@@ -247,16 +246,16 @@
   }
   &_container2 {
     position: absolute;
-    // top: -100px;
+    top: -100px;
     top: 0;
-    left: 0;
+    left: 10%;
     width: 200px;
     height: 200px;
-    background: linear-gradient(to right, #00c4cc88 0%, #10365c88 96%);
+    background: linear-gradient(to right, #10365c88 0%, #00c4cc88 96%);
     filter: blur(30px);
     transform: scale(1.5);
     border-radius: 50%;
-    transition: 669ms linear;
+    transition: 223ms linear;
     animation: spinReverse 5s linear infinite;
   }
 }
