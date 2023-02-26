@@ -11,6 +11,7 @@
   background-color: #fefefe;
   transition: 223ms linear;
   z-index: 1;
+  margin: 60px 0 0 0;
 
   &_header {
     margin: 12px auto;
@@ -20,7 +21,6 @@
     width: 100px;
     height: 100px;
     box-shadow: 4px 8px 8px #10365c33;
-
     margin: 0 auto 20px;
 
     &_content {
@@ -45,8 +45,8 @@
     color: #05647a;
     margin: 0 0 20px 0;
   }
-  &_main {
-  }
+  // &_main {
+  // }
   &_subtitle {
     font-weight: 700;
     font-size: 14px;
@@ -56,7 +56,6 @@
     color: #05647a;
     font-size: 14px;
     font-weight: 400;
-
     margin: 0 0 20px 0;
   }
   &_section {
@@ -234,7 +233,8 @@
   position: relative;
   &_container1 {
     position: absolute;
-    top: -200px;
+    // top: -200px;
+    top: -100px;
     left: 0;
     width: 340px;
     height: 340px;
@@ -243,11 +243,12 @@
     transform: scale(1.2);
     border-radius: 50%;
     transition: 669ms linear;
-    animation: spin 12s linear infinite;
+    animation: spin 6s linear infinite;
   }
   &_container2 {
     position: absolute;
-    top: -100px;
+    // top: -100px;
+    top: 0;
     left: 0;
     width: 200px;
     height: 200px;
@@ -256,7 +257,7 @@
     transform: scale(1.5);
     border-radius: 50%;
     transition: 669ms linear;
-    animation: spinReverse 10s linear infinite;
+    animation: spinReverse 5s linear infinite;
   }
 }
 

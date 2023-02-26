@@ -33,11 +33,9 @@ const {
   card_contact_item_link,
   card_action,
   //
-  container,
   gradient,
   gradient_container1,
   gradient_container2,
-  gradient_blur,
 } = styles;
 const Home = () => {
   const [step, setStep] = useState('about');
@@ -161,12 +159,31 @@ const Home = () => {
               <div className={card_section} id="experience">
                 <h3 className={card_subtitle}>Work experience</h3>
                 <ul className={card_timeline}>
-                  <li className={card_timeline_item} data-year="2021-2022">
-                    <div className={card_timeline_item_title}>
-                      Front-end Developer at{' '}
+                <li className={card_timeline_item} data-year="2022-2023">
+                <div className={card_timeline_item_title}>
+                {/* Front-end Developer */}
+                       at{' '}
                       <span>
                         <a
-                          href="https://www.linkedin.com/company/sevoyer/about/"
+                          href="https://ukringroup.ua/"
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          USG
+                        </a>
+                      </span>
+                    </div>
+                    <div className={card_timeline_item_desc}>
+                    Took part in building an online store, integrated payment processing, architecture, and layouts of routings, adaptive design, and code debugging with React/Redux with MUI and styled components.
+                    </div>
+                </li>
+                  <li className={card_timeline_item} data-year="2021-2022">
+                    <div className={card_timeline_item_title}>
+                      {/* Front-end Developer */}
+                       at{' '}
+                      <span>
+                        <a
+                          href="https://sevoyr.alfexdev.fun/"
                           rel="noreferrer"
                           target="_blank"
                         >
@@ -182,7 +199,8 @@ const Home = () => {
                   </li>
                   <li className={card_timeline_item} data-year="2020-2021">
                     <div className={card_timeline_item_title}>
-                      Front-end Developer at <span>CheckIn</span>
+                      {/* Front-end Developer  */}
+                      at <span>CheckIn</span>
                     </div>
                     <div className={card_timeline_item_desc}>
                       Remote team day-to-day management tool. I have implemented
@@ -190,7 +208,7 @@ const Home = () => {
                       the back-end with Redux.
                     </div>
                   </li>
-                  <li className={card_timeline_item} data-year="2014-2019">
+                  {/* <li className={card_timeline_item} data-year="2014-2019">
                     <div className={card_timeline_item_title}>
                       Marketing Assistant to Sales Department at{' '}
                       <span>
@@ -218,7 +236,7 @@ const Home = () => {
                       website creation project and implementing the transition
                       between the old and new CRM systems (BMBY → Brainify).
                     </div>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             )}

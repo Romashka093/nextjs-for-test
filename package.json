@@ -13,11 +13,26 @@
     "node-sass": "^7.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.0",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "type": "module",
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/Romashka093/nextjs-for-test.git"
+  },
+  "keywords": [],
+  "author": "Anna Romashchenko <aa.romashchenko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romashka093/nextjs-for-test/issues"
+  },
+  "homepage": "https://github.com/Romashka093/nextjs-for-test#readme"
 }
