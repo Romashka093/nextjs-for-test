@@ -183,7 +183,7 @@ const Home = () => {
                        at{' '}
                       <span>
                         <a
-                          href="https://sevoyr.alfexdev.fun/"
+                          href="https://platform.sevoyer.com/auth/login"
                           rel="noreferrer"
                           target="_blank"
                         >
