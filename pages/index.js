@@ -124,7 +124,7 @@ const Home = () => {
                   </li>
                   <li className={card_networks_item}>
                     <a
-                      href="https://djinni.co/q/2784136c35/"
+                      href="https://djinni.co/q/5bee9f983c/"
                       target="_blank"
                       rel="noreferrer"
                       className={card_networks_item__elem}
