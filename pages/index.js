@@ -152,6 +152,21 @@ const Home = () => {
                       />
                     </a>
                   </li>
+                  <li className={card_networks_item}>
+                    <a
+                      href="https://www.canva.com/design/DADzN77bb_Y/xP213_sGxer4Er93V-DKnw/view?utm_content=DADzN77bb_Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
+                      target="_blank"
+                      rel="noreferrer"
+                      className={card_networks_item__elem}
+                    >
+                      <Image
+                        src="/person.svg"
+                        alt="resume"
+                        width={16}
+                        height={16}
+                      />
+                    </a>
+                  </li>
                 </ul>
               </div>
             )}
