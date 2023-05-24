@@ -92,7 +92,7 @@ const Home = () => {
                   working in a close-knit team.
                 </p>
                 <ul className={card_networks}>
-                  <li className={card_networks_item}>
+                  <li className={card_networks_item} title='GitHub'>
                     <a
                       href="https://github.com/Romashka093"
                       target="_blank"
@@ -107,7 +107,7 @@ const Home = () => {
                       />
                     </a>
                   </li>
-                  <li className={card_networks_item}>
+                  <li className={card_networks_item} title='Linkedin'>
                     <a
                       href="https://www.linkedin.com/in/annaromashchenko/"
                       target="_blank"
@@ -122,7 +122,7 @@ const Home = () => {
                       />
                     </a>
                   </li>
-                  <li className={card_networks_item}>
+                  <li className={card_networks_item} title='Djinni'>
                     <a
                       href="https://djinni.co/q/5bee9f983c/"
                       target="_blank"
@@ -137,7 +137,7 @@ const Home = () => {
                       />
                     </a>
                   </li>
-                  <li className={card_networks_item}>
+                  <li className={card_networks_item} title='Telegram'>
                     <a
                       href="https://t.me/romashchenkog"
                       target="_blank"
@@ -152,7 +152,7 @@ const Home = () => {
                       />
                     </a>
                   </li>
-                  <li className={card_networks_item}>
+                  <li className={card_networks_item} title='CV'>
                     <a
                       href="https://www.canva.com/design/DADzN77bb_Y/xP213_sGxer4Er93V-DKnw/view?utm_content=DADzN77bb_Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
                       target="_blank"
