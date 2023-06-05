@@ -277,7 +277,7 @@ const Home = () => {
                       Ukraine, Kyiv
                     </a>
                   </li>
-                  <li className={card_contact_item}>
+                  {/* <li className={card_contact_item}>
                     <div className={card_contact_item_img}>
                       <Image
                         src="/phone.svg"
@@ -294,7 +294,7 @@ const Home = () => {
                     >
                       +38 (093) 470 72 99
                     </a>
-                  </li>
+                  </li> */}
                   <li className={card_contact_item}>
                     <div className={card_contact_item_img}>
                       <Image
