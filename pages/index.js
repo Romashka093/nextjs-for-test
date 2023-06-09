@@ -154,7 +154,8 @@ const Home = () => {
                   </li>
                   <li className={card_networks_item} title='CV'>
                     <a
-                      href="https://www.canva.com/design/DADzN77bb_Y/xP213_sGxer4Er93V-DKnw/view?utm_content=DADzN77bb_Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
+                      href='https://drive.google.com/file/d/1EDNqOcWYM7NieLTFFdI1MSl9ZZgNjqyn/view?usp=drive_link'
+                      // href="https://www.canva.com/design/DADzN77bb_Y/xP213_sGxer4Er93V-DKnw/view?utm_content=DADzN77bb_Y&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel"
                       target="_blank"
                       rel="noreferrer"
                       className={card_networks_item__elem}
@@ -180,7 +181,7 @@ const Home = () => {
                        at{' '}
                       <span>
                         <a
-                          href="https://ukringroup.ua/"
+                          href="https://www.usg.ua/"
                           rel="noreferrer"
                           target="_blank"
                         >
